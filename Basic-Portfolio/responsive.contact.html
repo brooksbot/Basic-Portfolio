@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me | Send Me a Message</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chris Bailey">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="responsive.style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <div class="col-md-4 col-sm-12" id="myName">
+                        Chris Bailey
+                    </div>
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <nav class="col-md-6 col-sm-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="navButton col" id="aboutButton">
+                                    <a href="bootstrap.bio2.html">About</a>
+                                </div>
+                                <div class="navButton col" id="portButton">
+                                    <a href="bootstrap.bio2.port.html">Portfolio</a>
+                                </div>
+                                <div class="navButton col" id="contactButton">
+                                    <a href="bootstrap.bio2.contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <div class="container" id="bodyContent">
+            <div class="col-md-8 col-xs-12">
+                <section id="mainContent">
+                    <h1>Contact</h1>
+                    <form>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" placeholder="Your Name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="example@yahoo.com"><br>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" id="myTextArea" cols="30" rows="10"></textarea><br>
+                        <input id="submitButton" type="submit" value="Submit">
+                    </form>
+                </section>
+            </div>
+            <section class="col-md-4 col-xs-12" id="sideBar">
+                <div class="row">
+                    <h2 class="col-12">Connect With Me</h2>
+                </div>
+                <div class="row">
+                    <a href="https://github.com/brooksbot" class="socialIcon col-4">
+                        <div id="gitHubIconRed"></div>
+                        <div id="gitHubIconBlack"></div>
+                    </a>
+                    <a id="middleIcon" href="https://www.linkedin.com"  class="socialIcon col-4">
+                        <div id="linkedinIconRed"></div>
+                        <div id="linkedinIconBlack"></div>
+                    </a>
+                    <a href="https://stackoverflow.com/username"  class="socialIcon col-4">
+                        <div id="stackIconRed"></div>
+                        <div id="stackIconBlack"></div>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <!-- This is a blank div that is given the same height as the footer. This makes the body long enough to add in a footer without it overlapping content in the body. -->
+        <div class="push"></div>
+    </div>
+    <footer>
+        <p id="copyright">
+            &copy; Copyright 2018 ChrisBailey
+        </p>
+    </footer>
+</body>
+</html>
